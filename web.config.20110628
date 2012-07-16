@@ -1,0 +1,481 @@
+﻿<?xml version="1.0"?>
+<!-- 
+    Note: As an alternative to hand editing this file you can use the 
+    web admin tool to configure settings for your application. Use
+    the Website->Asp.Net Configuration option in Visual Studio.
+    A full list of settings and comments can be found in 
+    machine.config.comments usually located in 
+    \Windows\Microsoft.Net\Framework\vx.x\Config 
+-->
+<configuration>
+  <configSections>
+    <sectionGroup name="system.web.extensions" type="System.Web.Configuration.SystemWebExtensionsSectionGroup, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35">
+      <sectionGroup name="scripting" type="System.Web.Configuration.ScriptingSectionGroup, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35">
+        <section name="scriptResourceHandler" type="System.Web.Configuration.ScriptingScriptResourceHandlerSection, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" requirePermission="false" allowDefinition="MachineToApplication"/>
+        <sectionGroup name="webServices" type="System.Web.Configuration.ScriptingWebServicesSectionGroup, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35">
+          <section name="jsonSerialization" type="System.Web.Configuration.ScriptingJsonSerializationSection, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" requirePermission="false" allowDefinition="Everywhere"/>
+          <section name="profileService" type="System.Web.Configuration.ScriptingProfileServiceSection, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" requirePermission="false" allowDefinition="MachineToApplication"/>
+          <section name="authenticationService" type="System.Web.Configuration.ScriptingAuthenticationServiceSection, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" requirePermission="false" allowDefinition="MachineToApplication"/>
+          <section name="roleService" type="System.Web.Configuration.ScriptingRoleServiceSection, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" requirePermission="false" allowDefinition="MachineToApplication"/>
+        </sectionGroup>
+      </sectionGroup>
+    </sectionGroup>
+  </configSections>
+  <appSettings>
+    <add key="KVOLUSION_BASE_API" value="http://acgze.jntce.servertrust.com/net/WebService.aspx" />
+    <add key="KVOLUSION_USER" value="khash@khash.com" />
+    <add key="KVOLUSION_PASSWORD" value="6BE570DAD18DD03A18474F60F8E24969011AB2F499B7A886896337BF1781A9D0" />
+
+    <add key="EMAIL_SUBJECT_DEFAULT" value="Get a good deal and support [COL:CAUSENAME]" />
+    <add key="EMAIL_BODY_DEFAULT" value="Dear Friends:\n\nThere's nothing better than saving money...except maybe doing a great deed. Right now, you can do both with this GoodTwo fundraiser for [COL:CAUSENAME]. Check out the campaign, which features different deals from salons, spas, restaurants, and other retailers. Every time you buy a deal from [COL:TITLE], [COL:CAUSENAME] receives part of your purchase as a donation.\n\nIt's a win-win: you get a great deal and [COL:TITLE] gets a donation.\n\nYou can see the deals and details about the fundraiser at: [EVENT-URL]\n\nIf you like CoupMe, Groupon or Living Social, you'll love this fundraiser.\n\nI hope that you'll not only consider buying deals through GoodTwo to benefit this good cause, but that you'll also pass along this link to your network, post on Facebook, and tweet about it to let your family members and friends know that these deals are available, and that their purchase will benefit a great cause.\n\nThank you!" />
+
+    <add key="EMAIL_SUBJECT_PMC" value="Get a Great Deal and Support [COL:USERNAME]'s Ride" />
+    <add key="EMAIL_BODY_PMC" value="Dear Friends:\n\nEach year, more than 5,000 people rise the Pan Mass Challenge in an effort to raise millions of dollars for Dana Farber and the Jimmy Fund to fight and cure cancer. Whether you have already donated to the Pan Mass Challenge or not, I hope you'll take a moment to check out this great fundraiser that supports the PMC and [COL:USERNAME]'s fundraiser.\n\n[EVENT-URL]\n\nThis fundraising campaign is a a win-win for both you and the PMC. There are several great deals on things like restaurants, spas, gourmet coffee and more. Every time someone buys a deal from [COL:USERNAME]'s campaign, a donation goes to the PMC and to their fundraising goal. PMC gets a donation and YOU get a great deal. If you like CoupMe, Groupon, or Living Social, you're going to love this fundraiser.\n\nI hope that you'll not only consider buying deals through GoodTwo to benefit the PMC, but that you'll also pass along this link to your network, post on Facebook, and tweet about it to let your family members and friends know that these deals are available, and that their purchase will benefit a great cause.\n\nThank you!" />
+  
+  </appSettings>
+  <connectionStrings>
+    <!--
+    <add name="goodtwoDbConnectionString1" connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\goodtwoDb.mdf;Integrated Security=True;User Instance=True" providerName="System.Data.SqlClient" />
+    -->
+    <add name="goodtwoDbConnectionString1" connectionString="Data Source=mssql0817.wc2\inst1;Initial Catalog=545386_goodtwoDbQA;User ID=545386_byucatonis4;Password=LifeisG00d" providerName="System.Data.SqlClient" />
+
+  </connectionStrings>
+  <system.web>
+    <identity impersonate="true" userName="dfw\byucatonis" password="LifeisG00d" />
+    <!-- 
+            Set compilation debug="true" to insert debugging 
+            symbols into the compiled page. Because this 
+            affects performance, set this value to true only 
+            during development.
+        -->
+    <compilation debug="true">
+      <assemblies>
+        <add assembly="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089"/>
+        <add assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+        <add assembly="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089"/>
+        <add assembly="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089"/>
+      </assemblies>
+    </compilation>
+    <!--
+            The <authentication> section enables configuration 
+            of the security authentication mode used by 
+            ASP.NET to identify an incoming user. 
+        -->
+    <authentication mode="Forms">
+      <forms loginUrl="~/Account/Login.aspx" timeout="2880" protection="All" />
+    </authentication>
+    <membership defaultProvider="GoodTwoSqlMembershipProvider">
+      <providers>
+        <clear />
+        <!--Add a customized SqlMembershipProvider -->
+        <add name="GoodTwoSqlMembershipProvider" type="System.Web.Security.SqlMembershipProvider" connectionStringName="goodtwoDbConnectionString1" enablePasswordRetrieval="false" enablePasswordReset="true" requiresQuestionAndAnswer="true" applicationName="GoodTwo" requiresUniqueEmail="true" passwordFormat="Hashed" maxInvalidPasswordAttempts="5" minRequiredPasswordLength="7" minRequiredNonalphanumericCharacters="0" passwordAttemptWindow="10" passwordStrengthRegularExpression="" />
+      </providers>
+    </membership>
+    <!--
+            The <customErrors> section enables configuration 
+            of what to do if/when an unhandled error occurs 
+            during the execution of a request. Specifically, 
+            it enables developers to configure html error pages 
+            to be displayed in place of a error stack trace.
+    -->
+    <customErrors mode="Off" defaultRedirect="ErrorPage.aspx">
+      <error statusCode="403" redirect="NoAccess.htm" />
+      <error statusCode="404" redirect="FileNotFound.htm" />
+    </customErrors>
+    <pages>
+      <controls>
+        <add tagPrefix="asp" namespace="System.Web.UI" assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+        <add tagPrefix="asp" namespace="System.Web.UI.WebControls" assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      </controls>
+    </pages>
+    <httpHandlers>
+      <remove verb="*" path="*.asmx"/>
+      <add verb="*" path="*.asmx" validate="false" type="System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      <add verb="*" path="*_AppService.axd" validate="false" type="System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      <add verb="GET,HEAD" path="ScriptResource.axd" type="System.Web.Handlers.ScriptResourceHandler, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" validate="false"/>
+    </httpHandlers>
+    <httpModules>
+      <add name="ScriptModule" type="System.Web.Handlers.ScriptModule, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+    </httpModules>
+
+    <clientTarget>
+      <add alias="ie5" userAgent="Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 4.0)" />
+      <add alias="ie4" userAgent="Mozilla/4.0 (compatible; MSIE 4.0; Windows NT 4.0)" />
+      <add alias="uplevel" userAgent="Mozilla/4.0 (compatible; MSIE 4.0; Windows NT 4.0)" />
+      <add alias="downlevel" userAgent="Unknown" />
+    </clientTarget>
+    <browserCaps>
+      <!-- Uncomment the line below for .Net framework 1.1 -->
+      <result type="System.Web.Mobile.MobileCapabilities, System.Web.Mobile, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <!-- UnComment out the line below for .Net framework 1.0 -->
+      <!-- <result type="System.Web.HttpBrowserCapabilities" /> -->
+      <!-- .Net framework 1.0 Compatibility. This line below will generate an error on .Net 1.1 -->
+      <!-- <result type="System.Web.HttpBrowserCapabilities" /> -->
+      <use var="HTTP_USER_AGENT" />
+
+      browser=Unknown
+      version=0.0
+      majorversion=0
+      minorversion=0
+      frames=false
+      tables=false
+      cookies=false
+      backgroundsounds=false
+      vbscript=false
+      javascript=false
+      javaapplets=false
+      activexcontrols=false
+      win16=false
+      win32=false
+      beta=false
+      ak=false
+      sk=false
+      aol=false
+      crawler=false
+      cdf=false
+      gold=false
+      authenticodeupdate=false
+      <!--  THIS LINE BELOW IS REALLY IMPORTANT FOR NETSCAPE AND THE --><!--  VALIDATION SUMMARY CONTROL. IF ITS SET TO THE ORIGINAL   --><!--  System.web.UI.Html32TextWriter, THEN 'DIV' ELEMENTS GET  --><!-- WRITTEN AS 'TABLE' ELEMENTS IN NETSCAPE                   -->
+      tagwriter=System.Web.UI.HtmlTextWriter
+
+      ecmascriptversion=0.0
+      msdomversion=0.0
+      w3cdomversion=0.0
+      platform=Unknown
+      clrVersion=0.0
+      css1=false
+      css2=false
+      xml=false
+
+      <filter>
+        <case match="COM\+|\.NET CLR (?'clrVersion'[0-9\.]*)">
+          clrVersion=${clrVersion}
+        </case>
+      </filter><filter>
+        <case match="Windows 95|Win95">
+          platform=Win95
+        </case>
+        <case match="Windows 98|Win98">
+          platform=Win98
+        </case>
+        <case match="Windows NT|WinNT">
+          platform=WinNT
+        </case>
+        <case match="Windows 3.1|Win16">
+          platform=Win16
+        </case>
+        <case match="Windows CE|WinCE">
+          platform=WinCE
+        </case>
+        <case match="Mac_68000|Macintosh.*68K">
+          platform=Mac68K
+        </case>
+        <case match="Mac_PowerPC|Macintosh.*PPC">
+          platform=MacPPC
+        </case>
+        <case match="X11">
+          platform=UNIX
+        </case>
+        <case match="WebTV">
+          platform=WebTV
+        </case>
+      </filter><filter>
+        <case match="16bit|Windows 3.1|Win16">
+          win16=true
+        </case>
+        <case match="Windows 95|Win95|Windows 98|Win98|Windows NT|WinNT|Win32">
+          win32=true
+        </case>
+      </filter><filter>
+        <case match="WebTV/(?'version'(?'major'\d+)(?'minor'\.\d+)(?'letters'\w*))">
+          browser=WebTV
+          version=${version}
+          majorversion=${major}
+          minorversion=${minor}
+          tables=true
+          cookies=true
+          backgroundsounds=true
+
+          <filter match="2" with="${minor}">
+            javascript=true
+            ecmascriptversion=1.0
+            css1=true
+          </filter><filter match="^b" with="${letters}">
+            beta=true
+          </filter>
+        </case>
+        <case match="Opera[ /](?'version'(?'major'\d+)(?'minor'\.\d+)(?'letters'\w*))">
+          browser=Opera
+          version=${version}
+          majorversion=${major}
+          minorversion=${minor}
+          frames=true
+          tables=true
+          cookies=true
+          javascript=true
+          ecmascriptversion=1.1
+
+          <filter match="[4-9]" with="${major}">
+            ecmascriptversion=1.3
+            w3cdomversion=1.0
+            css1=true
+            css2=true
+            xml=true
+          </filter><filter match="^b" with="${letters}">
+            beta=true
+          </filter>
+        </case>
+        <case match="^Mozilla[^(]*\(compatible; MSIE (?'version'(?'major'\d+)(?'minor'\.\d+)(?'letters'\w*))(?'extra'.*)">
+
+          browser=IE
+          version=${version}
+          majorversion=${major}
+          minorversion=${minor}
+
+          <case match="[5-9]\." with="${version}">
+            frames=true
+            tables=true
+            cookies=true
+            backgroundsounds=true
+            vbscript=true
+            javascript=true
+            javaapplets=true
+            activexcontrols=true
+            tagwriter=System.Web.UI.HtmlTextWriter
+            ecmascriptversion=1.2
+            msdomversion=${major}${minor}
+            w3cdomversion=1.0
+            css1=true
+            css2=true
+            xml=true
+
+            <filter with="${letters}" match="^b">
+              beta=true
+            </filter><filter with="${extra}" match="Crawler">
+              crawler=true
+            </filter>
+          </case><case match="^4\." with="${version}">
+            frames=true
+            tables=true
+            cookies=true
+            backgroundsounds=true
+            vbscript=true
+            javascript=true
+            javaapplets=true
+            activexcontrols=true
+            tagwriter=System.Web.UI.HtmlTextWriter
+            ecmascriptversion=1.2
+            msdomversion=4.0
+            w3cdomversion=1.0
+            cdf=true
+            css1=true
+
+            <filter with="${letters}" match="^[ab]">
+              beta=true
+            </filter><filter with="${extra}" match="Crawler">
+              crawler=true
+            </filter><filter match="; AOL" with="${extra}">
+              aol=true
+            </filter><filter match="; Update a;" with="${extra}">
+              authenticodeupdate=true
+            </filter>
+          </case><case match="^3\." with="${version}">
+            frames=true
+            tables=true
+            cookies=true
+            backgroundsounds=true
+            vbscript=true
+            javascript=true
+            javaapplets=true
+            activexcontrols=true
+            ecmascriptversion=1.0
+            css1=true
+
+            <filter match="true" with="%{win16}">
+              javaapplets=false
+              activexcontrols=false
+              <filter match="^a" with="${letters}">
+                beta=true
+                vbscript=false
+                javascript=false
+              </filter>
+            </filter><filter match="Mac68K|MacPPC" with="%{platform}">
+              vbscript=false
+              activexcontrols=false
+            </filter><filter match="^B" with="${letters}">
+              beta=true
+            </filter><filter match="; AK;" with="${extra}">
+              ak=true
+            </filter><filter match="; SK;" with="${extra}">
+              sk=true
+            </filter><filter match="; Update a;" with="${extra}">
+              authenticodeupdate=true
+            </filter><filter match="; AOL" with="${extra}">
+              aol=true
+            </filter>
+          </case><case match="^2\." with="${version}">
+            tables=true
+            cookies=true
+            backgroundsounds=true
+
+            <filter match="^b" with="${letters}">
+              beta=true
+            </filter><filter match="; AOL" with="${extra}">
+              aol=true
+            </filter>
+          </case><case match="^1\.5" with="${version}">
+            tables=true
+            cookies=true
+          </case>
+        </case>
+        <case match="^Microsoft Pocket Internet Explorer/0.6">
+          browser=PIE
+          version=1.0
+          majorversion=1
+          minorversion=0
+          tables=true
+          backgroundsounds=true
+          platform=WinCE
+        </case>
+        <case match="^Mozilla[^(]*\(compatible; MSPIE (?'version'(?'major'\d+)(?'minor'\.\d+)(?'letters'\w*))(?'extra'.*)">
+          browser=PIE
+          version=${version}
+          majorversion=${major}
+          minorversion=${minor}
+          tables=true
+          backgroundsounds=true
+          cookies=true
+
+          <case match="2\." with="${version}">
+            frames=true
+          </case>
+        </case>
+        <case match="^Mozilla/5\.0 \([^)]*\) (Gecko/[-\d]+ )?Netscape6/(?'version'(?'major'\d+)(?'minor'\.\d+)(?'letters'\w*)).*">
+          browser=Netscape
+          version=${version}
+          majorversion=${major}
+          minorversion=${minor}
+          frames=true
+          tables=true
+          cookies=true
+          javascript=true
+          javaapplets=true
+          ecmascriptversion=1.5
+          w3cdomversion=1.0
+          css1=true
+          css2=true
+          xml=true
+
+          <filter match="^b" with="${letters}">
+            beta=true
+          </filter>
+        </case>
+        <case match="^Mozilla/2\.01 \(Compatible\) Oracle\(tm\) PowerBrowser\(tm\)/1\.0a">
+          browser=PowerBrowser
+          version=1.5
+          majorversion=1
+          minorversion=.5
+          frames=true
+          tables=true
+          cookies=true
+          vbscript=true
+          javascript=true
+          javaapplets=true
+          platform=Win95
+        </case>
+        <case match="^Mozilla/(?'version'(?'major'\d+)(?'minor'\.\d+)(?'letters'\w*)).*">
+          browser=IE
+          version=${version}
+          majorversion=${major}
+          minorversion=${minor}
+
+          <filter match="^b" with="${letters}">
+            beta=true
+          </filter><filter match="Gold" with="${letters}">
+            gold=true
+          </filter><case match="^[4-9]\." with="${version}">
+            frames=true
+            tables=true
+            cookies=true
+            javascript=true
+            javaapplets=true
+            ecmascriptversion=1.1
+            <!-- Line below commented out for enhanced support with NS 4.7 --><!--w3cdomversion=1.0 -->
+            css1=true
+
+            <filter match="^[5-9]*" with="${minor}">
+              ecmascriptversion=1.3
+            </filter>
+          </case><case match="^[2-3]\." with="${version}">
+            frames=true
+            tables=true
+            cookies=true
+            javascript=true
+            javaapplets=true
+            ecmascriptversion=1.1
+            <!--w3cdomversion=1.0 -->
+          </case>
+        </case>
+      </filter><filter>
+        <case match="Unknown" with="%{browser}">
+          type=Unknown
+        </case>
+        <case>
+          type=%{browser}%{majorversion}
+        </case>
+      </filter>
+    </browserCaps>
+  </system.web>
+  <system.codedom>
+    <compilers>
+      <compiler language="c#;cs;csharp" extension=".cs" warningLevel="4" type="Microsoft.CSharp.CSharpCodeProvider, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <providerOption name="CompilerVersion" value="v3.5"/>
+        <providerOption name="WarnAsError" value="false"/>
+      </compiler>
+      <compiler language="vb;vbs;visualbasic;vbscript" extension=".vb" warningLevel="4" type="Microsoft.VisualBasic.VBCodeProvider, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <providerOption name="CompilerVersion" value="v3.5"/>
+        <providerOption name="OptionInfer" value="true"/>
+        <providerOption name="WarnAsError" value="false"/>
+      </compiler>
+    </compilers>
+  </system.codedom>
+  <system.net>
+  <mailSettings>
+    <smtp>
+    <network defaultCredentials="false" host="smtp.emailsrvr.com" userName="fundraisers@goodtwo.com" password="LifeisG00d"/>
+    </smtp>
+  </mailSettings>
+  </system.net>
+  <!-- 
+        The system.webServer section is required for running ASP.NET AJAX under Internet
+        Information Services 7.0.  It is not necessary for previous version of IIS.
+    -->
+  <system.webServer>
+    <validation validateIntegratedModeConfiguration="false"/>
+    <modules>
+      <remove name="ScriptModule"/>
+      <add name="ScriptModule" preCondition="managedHandler" type="System.Web.Handlers.ScriptModule, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+    </modules>
+    <handlers>
+      <remove name="WebServiceHandlerFactory-Integrated"/>
+      <remove name="ScriptHandlerFactory"/>
+      <remove name="ScriptHandlerFactoryAppServices"/>
+      <remove name="ScriptResource"/>
+      <add name="ScriptHandlerFactory" verb="*" path="*.asmx" preCondition="integratedMode" type="System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      <add name="ScriptHandlerFactoryAppServices" verb="*" path="*_AppService.axd" preCondition="integratedMode" type="System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      <add name="ScriptResource" preCondition="integratedMode" verb="GET,HEAD" path="ScriptResource.axd" type="System.Web.Handlers.ScriptResourceHandler, System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+    </handlers>
+  </system.webServer>
+  <runtime>
+    <assemblyBinding appliesTo="v2.0.50727" xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Extensions" publicKeyToken="31bf3856ad364e35"/>
+        <bindingRedirect oldVersion="1.0.0.0-1.1.0.0" newVersion="3.5.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Extensions.Design" publicKeyToken="31bf3856ad364e35"/>
+        <bindingRedirect oldVersion="1.0.0.0-1.1.0.0" newVersion="3.5.0.0"/>
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>

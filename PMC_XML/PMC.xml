@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile id="MI0005" ProfileType="Rider" version="2">
+	<Personal ModiDate="" Goal="2100" Photo="no-photo.gif" OriginalPhoto="" Isactive="yes" Isvisible="yes" displayprogress="yes" displaysponsors="" defaultpage="paceline" version="2" regid="7703" ridehistory="">
+		<Story title="Why I Ride ...">
+			<![CDATA[I'm a proud supporter of the PMC because it is leading a charge to beat cancer. In fact, last year 100% of rider-raised revenue went directly to support the Jimmy Fund and Dana-Farber Cancer Institute's tireless commitment to finding a cure.  ]]>
+		</Story>
+		<Gallery>
+			<Image seq="0" id="0" photo="http://media.pmc.org/pmcphotos/2006/PMC_Sunday_Ptown_Bag_Piper/large/_DSC1618.jpg"/><Image seq="1" id="1" photo="http://media.pmc.org/pmcphotos/2006/PMC_Sunday_Barnstable/large/100_1358.JPG"/><Image seq="2" id="2" photo="http://media.pmc.org/pmcphotos/2006/PMC_Sunday_Barnstable/large/100_1349.JPG"/><Image seq="3" id="3" photo="http://media.pmc.org/pmcphotos/2006/PMC_Saturday_Purgatory_Hill/large/_04DSC4751.JPG"/><Image seq="4" id="4" photo="http://media.pmc.org/pmcphotos/2006/PMC_Saturday_Dighton_Road/large/_DSC0378.JPG"/><Image id="5" seq="5" photo="http://www.pmc.org/pfpphotos/uploads/MI0005/MI0005.Gall.DSC_0075.jpg"/><Image id="6" seq="6" photo="http://www.pmc.org/pfpphotos/uploads/MI0005/MI0005.Gall.DSC_0069.jpg"/><Image id="7" seq="7" photo="http://www.pmc.org/pfpphotos/uploads/MI0005/MI0005.Gall.DSC_0035.jpg"/><Image id="8" seq="8" photo="http://www.pmc.org/pfpphotos/uploads/MI0005/MI0005.Gall.funny-wallpapers-rabbit-at-work.jpg"/></Gallery>
+		<Links>
+			<link seq="0" url="www.pmc.org" title="PMC"><![CDATA[]]></link></Links>
+	</Personal>
+	<Team ModiDate="" Photo="no-photo.gif" OriginalPhoto="no-photo.gif" Isactive="yes" Isvisible="yes" displaypaceline="" defaultpage="paceline">
+		<Story title="Why I Ride ...">
+			<![CDATA[I'm a proud supporter of the PMC because it is leading a charge to beat cancer. In fact, last year 100% of rider-raised revenue went directly to support the Jimmy Fund and Dana-Farber Cancer Institute's tireless commitment to finding a cure.]]>
+		</Story>
+		<gallery>
+		</gallery>
+		<Links>
+		</Links>
+	</Team>
+	<Personal ModiDate="" Goal="210" Photo="no-photo.gif" OriginalPhoto="no-photo.gif" Isactive="yes" Isvisible="yes" displayprogress="yes" displaysponsors="no" defaultpage="profile" version="2" regid="7685">
+		<Story title="Why I Ride ...">
+			<![CDATA[I'm a proud supporter of the PMC because it is leading a charge to beat cancer. In fact, last year 100% of rider-raised revenue went directly to support the Jimmy Fund and Dana-Farber Cancer Institute's tireless commitment to finding a cure.]]>
+		</Story>
+		<Gallery>
+			<Image seq="0" id="0" photo="http://media.pmc.org/pmcphotos/2006/PMC_Sunday_Ptown_Bag_Piper/large/_DSC1618.jpg"/><Image seq="1" id="1" photo="http://media.pmc.org/pmcphotos/2006/PMC_Sunday_Barnstable/large/100_1358.JPG"/><Image seq="2" id="2" photo="http://media.pmc.org/pmcphotos/2006/PMC_Sunday_Barnstable/large/100_1349.JPG"/><Image seq="3" id="3" photo="http://media.pmc.org/pmcphotos/2006/PMC_Saturday_Purgatory_Hill/large/_04DSC4751.JPG"/><Image seq="4" id="4" photo="http://media.pmc.org/pmcphotos/2006/PMC_Saturday_Dighton_Road/large/_DSC0378.JPG"/></Gallery>
+		<Links>
+		</Links>
+	</Personal>
+</Profile>

@@ -1,0 +1,70 @@
+
+Log Entry : 
+12/15/2010 15:45:33
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:c:\WebSites\goodtwo3.5\Funds\NewFund.aspx.cs(118): error CS0103: The name 'LogoUpload' does not exist in the current context (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 17:00:50
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 17:24:42
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 17:29:26
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 17:48:24
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Procedure or function 'CharityEvent_Insert' expects parameter '@Logo', which was not supplied. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 17:50:33
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 17:51:35
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 17:57:28
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Error converting data type numeric to smallmoney. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 18:03:05
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Error converting data type numeric to smallmoney. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 18:03:27
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Error converting data type numeric to smallmoney. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 18:04:31
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 18:05:03
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Error converting data type numeric to smallmoney. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 18:06:04
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/15/2010 18:09:42
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________

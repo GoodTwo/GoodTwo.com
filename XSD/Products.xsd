@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="xmldata" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+	<xs:element name="xmldata" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="Products">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element msprop:TableNameXsd="Products" name="AutoDropShip" msprop:maxLength="1" msprop:SQLTableAlias="p"
+			  msprop:SqlDbType="VarChar" msprop:SQLFrom="FROM vMerchant.Products p INNER JOIN vMerchant.Products_Descriptions pd ON 
+p.ProductID = pd.ProductID INNER JOIN vMerchant.Products_Extended pe ON p.ProductID = pe.ProductID INNER JOIN 
+vMerchant.Products_Memos pm ON p.ProductID = pm.ProductID" minOccurs="0" />
+							<xs:element name="DisplayBeginDate" msprop:SQLTableAlias="p" msprop:SqlDbType="SmallDateTime" minOccurs="0" />
+							<xs:element name="DisplayEndDate" msprop:SQLTableAlias="p" msprop:SqlDbType="SmallDateTime" minOccurs="0" />
+							<xs:element name="DoNotAllowBackOrders" msprop:maxLength="1" msprop:SQLTableAlias="p" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="HideProduct" msprop:maxLength="1" msprop:SQLTableAlias="p" msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="HomePage_Section" msprop:SQLTableAlias="p" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="IsChildOfProductCode" msprop:maxLength="30" msprop:SQLTableAlias="p" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="IsChildOfProductCode_ProductID" msprop:SQLTableAlias="p" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="LastModBy" msprop:SQLTableAlias="p" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="LastModified" msprop:SQLTableAlias="p" msprop:SqlDbType="SmallDateTime" minOccurs="0" />
+							<xs:element name="Options_Cloned_From" msprop:maxLength="30" msprop:SQLTableAlias="p" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Options_Cloned_From_ProductID" msprop:SQLTableAlias="p" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="Photos_Cloned_From" msprop:maxLength="30" msprop:SQLTableAlias="p" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Photos_Cloned_From_ProductID" msprop:SQLTableAlias="p" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="ProductCode" msprop:maxLength="30" msprop:SQLTableAlias="p" msprop:SqlDbType="VarChar" minOccurs="1" />
+							<xs:element name="ProductID" msprop:SQLTableAlias="p" msprop:SqlDbType="Int" msprop:IsIdentity="true" minOccurs="0" />
+							<xs:element name="ProductName" msprop:maxLength="255" msprop:SQLTableAlias="p" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="ProductPopularity" msprop:SQLTableAlias="p" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="Share_StockStatus_With" msprop:maxLength="30" msprop:SQLTableAlias="p" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Share_StockStatus_With_ProductID" msprop:SQLTableAlias="p" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="StockStatus" msprop:SQLTableAlias="p" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="Vendor_PartNo" msprop:maxLength="30" msprop:SQLTableAlias="p" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="ProductDescription" msprop:SQLTableAlias="pd" msprop:SqlDbType="Text" minOccurs="0" />
+							<xs:element name="ProductDescriptionShort" msprop:SQLTableAlias="pd" msprop:SqlDbType="Text" minOccurs="0" />
+							<xs:element name="Accessories" msprop:maxLength="255" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Additional_Handling_Indicator" msprop:maxLength="1" msprop:SQLTableAlias="pe"
+			   msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="AddtoCartBtn_Replacement_Text" msprop:maxLength="255" msprop:SQLTableAlias="pe"
+			   msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="AddToPO_Now" msprop:maxLength="1" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="Affiliate_Commissionable_Value" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="AllowPriceEdit" msprop:maxLength="1" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Availability" msprop:maxLength="100" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Book_ISBN" msprop:maxLength="13" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="CustomField1" msprop:maxLength="50" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="CustomField2" msprop:maxLength="255" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="CustomField3" msprop:maxLength="255" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="CustomField4" msprop:maxLength="50" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="CustomField5" msprop:maxLength="255" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="DiscountedPrice_Level1" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedPrice_Level2" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedPrice_Level3" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedPrice_Level4" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedPrice_Level5" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedRecurringPrice_Level1" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedRecurringPrice_Level2" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedRecurringPrice_Level3" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedRecurringPrice_Level4" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedRecurringPrice_Level5" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedSetupCost_Level1" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedSetupCost_Level2" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedSetupCost_Level3" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedSetupCost_Level4" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DiscountedSetupCost_Level5" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="DownloadFile" msprop:maxLength="100" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="EnableMultiChildAddToCart" msprop:maxLength="1" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="EnableOptions_InventoryControl" msprop:maxLength="1" msprop:SQLTableAlias="pe"
+			   msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="EstShip_2ndDay" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="EstShip_Ground" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="EstShip_Overnight" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="Fixed_ShippingCost" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="Fixed_ShippingCost_Outside_LocalRegion" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money"
+			   minOccurs="0" />
+							<xs:element name="FreeShippingItem" msprop:maxLength="1" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="GiftWrapCost" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="Height" msprop:SQLTableAlias="pe" msprop:SqlDbType="Decimal" minOccurs="0" />
+							<xs:element name="Hide_FreeAccessories" msprop:maxLength="1" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Hide_When_OutOfStock" msprop:maxLength="1" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Hide_YouSave" msprop:maxLength="1" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="HowToGetSalePrice" msprop:maxLength="10" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Inv_LastVerified" msprop:SQLTableAlias="pe" msprop:SqlDbType="SmallDateTime" minOccurs="0" />
+							<xs:element name="Inv_Verify_QtyOnHand" msprop:SQLTableAlias="pe" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="LastPO_Date" msprop:SQLTableAlias="pe" msprop:SqlDbType="SmallDateTime" minOccurs="0" />
+							<xs:element name="LastPO_Qty" msprop:SQLTableAlias="pe" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="Length" msprop:SQLTableAlias="pe" msprop:SqlDbType="Decimal" minOccurs="0" />
+							<xs:element name="ListPrice" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="ListPrice_Name" msprop:maxLength="50" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="MaxQty" msprop:SQLTableAlias="pe" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="METATAG_Description" msprop:maxLength="255" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="METATAG_Title" msprop:maxLength="255" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="MinQty" msprop:SQLTableAlias="pe" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="Oversized" msprop:maxLength="1" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="Package_Type" msprop:maxLength="2" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="Photo_AltText" msprop:maxLength="255" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Photo_SubText" msprop:maxLength="255" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="PhotoURL_Large" msprop:maxLength="100" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="PhotoURL_Small" msprop:maxLength="100" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Price_SubText" msprop:maxLength="100" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Price_SubText_Short" msprop:maxLength="50" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Private_Section_Customers_Only" msprop:maxLength="1" msprop:SQLTableAlias="pe"
+			   msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="ProductCategory" msprop:maxLength="1" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="ProductCondition" msprop:maxLength="100" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="ProductKeywords" msprop:maxLength="255" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="ProductManufacturer" msprop:maxLength="50" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="ProductNameShort" msprop:maxLength="50" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="ProductPrice" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="ProductPrice_Name" msprop:maxLength="50" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="ProductWeight" msprop:SQLTableAlias="pe" msprop:SqlDbType="Float" minOccurs="0" />
+							<xs:element name="Quickbooks_Item_Accnt" msprop:maxLength="35" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Quickbooks_Item_AssetAccnt" msprop:maxLength="35" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Quickbooks_Item_CogsAccnt" msprop:maxLength="35" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Recurring_Pricing_Text" msprop:maxLength="100" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="RecurringDuration" msprop:SQLTableAlias="pe" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="RecurringHowOften" msprop:SQLTableAlias="pe" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="RecurringPrice" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="RecurringStartDuration" msprop:SQLTableAlias="pe" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="RecurringStartPrice" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="SalePrice" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="SalePrice_Name" msprop:maxLength="50" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="SelectedOptionIDs" msprop:maxLength="200" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="SetupCost" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="SetupCost_Name" msprop:maxLength="50" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="SetupCost_Title" msprop:maxLength="100" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Ships_By_Itself" msprop:maxLength="1" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="ShoppingDotCom_Category" msprop:maxLength="100" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="StockLowQtyAlarm" msprop:SQLTableAlias="pe" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="StockReOrderQty" msprop:SQLTableAlias="pe" msprop:SqlDbType="Int" minOccurs="0" />
+							<xs:element name="TaxableProduct" msprop:maxLength="1" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="UPC_code" msprop:maxLength="25" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="Uses_Product_KeyTypes" msprop:maxLength="200" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="VAT_Percentage" msprop:SQLTableAlias="pe" msprop:SqlDbType="Float" minOccurs="0" />
+							<xs:element name="Vendor_Price" msprop:SQLTableAlias="pe" msprop:SqlDbType="Money" minOccurs="0" />
+							<xs:element name="warehouses" msprop:maxLength="255" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar" minOccurs="0" />
+							<xs:element name="Width" msprop:SQLTableAlias="pe" msprop:SqlDbType="Decimal" minOccurs="0" />
+							<xs:element name="Yahoo_Category" msprop:maxLength="100" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="Yahoo_Medium" msprop:maxLength="100" msprop:SQLTableAlias="pe" msprop:SqlDbType="VarChar"
+			   minOccurs="0" />
+							<xs:element name="CUSTOM_METATAGS_OVERRIDE" msprop:SQLTableAlias="pm" msprop:SqlDbType="Text" minOccurs="0" />
+							<xs:element name="ExtInfo" msprop:SQLTableAlias="pm" msprop:SqlDbType="Text" minOccurs="0" />
+							<xs:element name="METATAG_Keywords" msprop:SQLTableAlias="pm" msprop:SqlDbType="Text" minOccurs="0" />
+							<xs:element name="OrderFinished_Note" msprop:SQLTableAlias="pm" msprop:SqlDbType="Text" minOccurs="0" />
+							<xs:element name="ProductDescription_AbovePricing" msprop:SQLTableAlias="pm" msprop:SqlDbType="Text" minOccurs="0" />
+							<xs:element name="ProductFeatures" msprop:SQLTableAlias="pm" msprop:SqlDbType="Text" minOccurs="0" />
+							<xs:element name="TechSpecs" msprop:SQLTableAlias="pm" msprop:SqlDbType="Text" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+

@@ -1,0 +1,30 @@
+
+Log Entry : 
+12/10/2010 16:30:21
+Error in: http://localhost:57906/goodtwo3.5/Funds/buhillel.aspx. Error Message:Error in: http://localhost:57906/goodtwo3.5/Funds/buhillel.aspx. Error Message:An attempt to attach an auto-named database for file C:\WebSites\goodtwo3.5\App_Data\goodtwoDb.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share. (InnerException: )
+__________________________
+
+Log Entry : 
+12/10/2010 16:31:00
+Error in: http://localhost:57906/goodtwo3.5/Funds/BUhillel.aspx. Error Message:Error in: http://localhost:57906/goodtwo3.5/Funds/BUhillel.aspx. Error Message:An attempt to attach an auto-named database for file C:\WebSites\goodtwo3.5\App_Data\goodtwoDb.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share. (InnerException: )
+__________________________
+
+Log Entry : 
+12/10/2010 16:33:57
+Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/10/2010 16:33:57
+Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/10/2010 16:33:57
+Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/10/2010 16:33:57
+Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:File does not exist. (InnerException: )
+__________________________

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This document will describe the different regions and region codes of all the products in the Products table -->
+
+<RegionList>
+  <Region Code="r0001">
+    <StateList>
+      <State Name="Massachusetts" Code="MA"></State>
+      <State Name="New Hampshire" Code="NH"></State>
+    </StateList>    
+  </Region>
+  <Region Code="r0002">
+    <StateList>
+      <State Name="New York" Code="NY"></State>
+      <State Name="Connecticut" Code="CT"></State>
+    </StateList>
+  </Region>
+  <Region Code="r0003">
+    <StateList>
+      <State Name="Vermont" Code="VT"></State>
+      <State Name="New Hampshire" Code="NH"></State>
+    </StateList>
+  </Region>
+</RegionList>

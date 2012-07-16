@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Profile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Personal">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Story">
+                  <xs:complexType>
+                    <xs:simpleContent>
+                      <xs:extension base="xs:string">
+                        <xs:attribute name="title" type="xs:string" use="required" />
+                      </xs:extension>
+                    </xs:simpleContent>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="Gallery">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element maxOccurs="unbounded" name="Image">
+                        <xs:complexType>
+                          <xs:attribute name="seq" type="xs:unsignedByte" use="required" />
+                          <xs:attribute name="id" type="xs:unsignedByte" use="required" />
+                          <xs:attribute name="photo" type="xs:string" use="required" />
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="Links">
+                  <xs:complexType mixed="true">
+                    <xs:sequence minOccurs="0">
+                      <xs:element name="link">
+                        <xs:complexType>
+                          <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                              <xs:attribute name="seq" type="xs:unsignedByte" use="required" />
+                              <xs:attribute name="url" type="xs:string" use="required" />
+                              <xs:attribute name="title" type="xs:string" use="required" />
+                            </xs:extension>
+                          </xs:simpleContent>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+              <xs:attribute name="ModiDate" type="xs:string" use="required" />
+              <xs:attribute name="Goal" type="xs:unsignedShort" use="required" />
+              <xs:attribute name="Photo" type="xs:string" use="required" />
+              <xs:attribute name="OriginalPhoto" type="xs:string" use="required" />
+              <xs:attribute name="Isactive" type="xs:string" use="required" />
+              <xs:attribute name="Isvisible" type="xs:string" use="required" />
+              <xs:attribute name="displayprogress" type="xs:string" use="required" />
+              <xs:attribute name="displaysponsors" type="xs:string" use="required" />
+              <xs:attribute name="defaultpage" type="xs:string" use="required" />
+              <xs:attribute name="version" type="xs:unsignedByte" use="required" />
+              <xs:attribute name="regid" type="xs:unsignedShort" use="required" />
+              <xs:attribute name="ridehistory" type="xs:string" use="optional" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Team">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Story">
+                  <xs:complexType>
+                    <xs:simpleContent>
+                      <xs:extension base="xs:string">
+                        <xs:attribute name="title" type="xs:string" use="required" />
+                      </xs:extension>
+                    </xs:simpleContent>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="gallery" type="xs:string" />
+                <xs:element name="Links" type="xs:string" />
+              </xs:sequence>
+              <xs:attribute name="ModiDate" type="xs:string" use="required" />
+              <xs:attribute name="Photo" type="xs:string" use="required" />
+              <xs:attribute name="OriginalPhoto" type="xs:string" use="required" />
+              <xs:attribute name="Isactive" type="xs:string" use="required" />
+              <xs:attribute name="Isvisible" type="xs:string" use="required" />
+              <xs:attribute name="displaypaceline" type="xs:string" use="required" />
+              <xs:attribute name="defaultpage" type="xs:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required" />
+      <xs:attribute name="ProfileType" type="xs:string" use="required" />
+      <xs:attribute name="version" type="xs:unsignedByte" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

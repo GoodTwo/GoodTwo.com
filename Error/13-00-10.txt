@@ -1,0 +1,253 @@
+
+Log Entry : 
+12/13/2010 08:43:29
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 08:43:33
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 08:44:40
+Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 08:44:40
+Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 08:44:40
+Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 08:44:40
+Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 08:48:12
+Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 08:48:12
+Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 08:48:13
+Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 08:48:13
+Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 09:09:04
+Error in: http://localhost:57906/goodtwo3.5/Funds/BUhillel.aspx. Error Message:Error in: http://localhost:57906/goodtwo3.5/Funds/BUhillel.aspx. Error Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 09:10:16
+Error in: http://localhost:57906/goodtwo3.5/Funds/BUhillel.aspx. Error Message:Error in: http://localhost:57906/goodtwo3.5/Funds/BUhillel.aspx. Error Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 09:27:22
+Error in: http://localhost:57906/goodtwo3.5/Funds/BUhillel.aspx. Error Message:Error in: http://localhost:57906/goodtwo3.5/Funds/BUhillel.aspx. Error Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 09:29:18
+Error in: http://localhost:57906/goodtwo3.5/Funds/BUhillel.aspx. Error Message:Error in: http://localhost:57906/goodtwo3.5/Funds/BUhillel.aspx. Error Message:Login failed for user '545386_ykifle2'. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 10:06:54
+Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 10:06:54
+Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 10:06:54
+Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:The process cannot access the file 'C:\WebSites\goodtwo3.5\Error\13-00-10.txt' because it is being used by another process. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 10:06:54
+Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:The process cannot access the file 'C:\WebSites\goodtwo3.5\Error\13-00-10.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/13/2010 10:06:55
+Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 10:08:25
+Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 10:08:26
+Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:Error in: http://localhost:57906/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 10:08:27
+Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-big.gif. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 10:08:28
+Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:Error in: http://localhost:57906/goodtwo3.5/FileNotFound.htm?aspxerrorpath=/goodtwo3.5/FundResources/The_Florence_and_Chafetz_Hillel_House_at_Boston_University/hillel-main.jpg. Error Message:File does not exist. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 10:22:13
+Error in: http://localhost:57906/goodtwo3.5/Funds/Fund.aspx?id=2. Error Message:Error in: http://localhost:57906/goodtwo3.5/Funds/Fund.aspx?id=2. Error Message:The 'src' property had a malformed URL: '~/C:/Applications/GoodTwo/Funds/hillel-big.gif' is not a valid virtual path.. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 11:37:33
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 11:56:12
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 12:00:37
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 12:02:02
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 12:05:36
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 12:15:41
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 12:35:39
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 12:39:58
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 12:44:30
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 12:47:41
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 13:09:34
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 13:18:24
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 13:19:47
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 13:20:38
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 13:33:44
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 13:41:32
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 14:14:37
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 15:37:18
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Only one instance of a ScriptManager can be added to the page. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 16:08:01
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 16:33:01
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 16:33:06
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Cannot insert the value NULL into column 'CharityEventId', table '545386_goodtwoDb.dbo.CharityEvents'; column does not allow nulls. INSERT fails.
+The statement has been terminated. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 16:33:16
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Cannot insert the value NULL into column 'CharityEventId', table '545386_goodtwoDb.dbo.CharityEvents'; column does not allow nulls. INSERT fails.
+The statement has been terminated. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 16:42:17
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 16:43:29
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Cannot insert the value NULL into column 'CharityEventId', table '545386_goodtwoDb.dbo.CharityEvents'; column does not allow nulls. INSERT fails.
+The statement has been terminated. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 18:48:10
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/13/2010 18:48:35
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________

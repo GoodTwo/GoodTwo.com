@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="GoodTwo.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>goodtwo</title>
+    <link rel="stylesheet" runat="server" id="cssLink" type="text/css" href="~/Styles/sitewide.css" />
+    <!--[if lte IE 6]><style>.slideItem { position: relative; } #slideshowNav { width: 170px; }</style><![endif]-->
+    <!--[if IE]><style>.smallArr { float: none !important; }</style><![endif]-->
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="body">
+    <form id="Form1" runat="server">
+    <div id="wrapper">
+        <div id="headerWrapper">
+            <asp:ContentPlaceHolder ID="HeaderContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="mainContent">
+            <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div id="footerWrapper">
+        <div id="footer">
+            <div id="footerContent">
+                <dl>
+                    <dt>Company</dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                <asp:HyperLink ID="FundLink" runat="server" NavigateUrl="~/Fundraiser.aspx">Start a Fundraiser</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Businesses.aspx">Feature Your Deal</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/About.aspx">About Us</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="http://store.goodtwo.com/login.asp"
+                                    Target="_blank">Account Login</asp:HyperLink></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Talk To Us</dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Contact.aspx">Contact</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="http://www.facebook.com/pages/GoodTwo/154434547934853">Facebook</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="https://twitter.com/good_two">Twitter</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="http://goodtwo.wordpress.com">Blog</asp:HyperLink></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Legal</dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="http://store.goodtwo.com/terms_privacy.asp">Privacy Policy</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="http://store.goodtwo.com/terms.asp"
+                                    Target="_blank">Terms and Conditions</asp:HyperLink></li>
+                            <li>Shopping Cart by
+                                <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="http://www.volusion.com"
+                                    title="Shopping Cart Software" Target="_blank">Volusion</asp:HyperLink></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Account Management</dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                <asp:HyperLink ID="ChangePasswordHyperLink" runat="server" NavigateUrl="~/Account/ChangePassword.aspx">Change Password</asp:HyperLink></li>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <asp:HyperLink runat="server" CssClass="footerLogo" NavigateUrl="~/index.aspx">goodtwo</asp:HyperLink><span
+                    id="copyright">Copyright © 2010 &nbsp;&nbsp;The goodtwo logo and the &quot;good
+                    deal. good cause.&quot; service mark are the property of CoupMe Worldwide, LLC.
+                    &nbsp;All Rights Reserved.</span>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

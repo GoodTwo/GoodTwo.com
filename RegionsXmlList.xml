@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This document will describe the different regions and region codes of all the products in the Products table -->
+
+<RegionList>
+  <StateList>
+    <State Name="Alabama" Code="AL">
+    </State>
+    <State Name="Alaska" Code="AK">
+    </State>
+    <State Name="Arizona" Code="AZ">
+    </State>
+    <State Name="Arkansas" Code="AR">
+    </State>
+    <State Name="California" Code="CA">
+    </State>
+    <State Name="Colorado" Code="CO">
+    </State>
+    <State Name="Connecticut" Code="CT">
+    </State>
+    <State Name="Delaware" Code="DE">
+    </State>
+    <State Name="Florida" Code="FL">
+    </State>
+    <State Name="Georgia" Code="GA">
+    </State>
+    <State Name="Hawaii" Code="HI">
+    </State>
+    <State Name="Idaho" Code="ID">
+    </State>
+    <State Name="Illinois" Code="IL">
+    </State>
+    <State Name="Indiana" Code="IN">
+    </State>
+    <State Name="Iowa" Code="IA">
+    </State>
+    <State Name="Kansas" Code="KS">
+    </State>
+    <State Name="Kentucky" Code="KY">
+    </State>
+    <State Name="Louisiana" Code="LA">
+    </State>
+    <State Name="Maine" Code="ME">
+    </State>
+    <State Name="Maryland" Code="MD">
+    </State>
+    <State Name="Massachusetts" Code="MA">
+    </State>
+    <State Name="Michigan" Code="MI">
+    </State>
+    <State Name="Minnesota" Code="MN">
+    </State>
+    <State Name="Mississippi" Code="MS">
+    </State>
+    <State Name="Missouri" Code="MO">
+    </State>
+    <State Name="Montana" Code="MT">
+    </State>
+    <State Name="Nebraska" Code="NE">
+    </State>
+    <State Name="Nevada" Code="NV">
+    </State>
+    <State Name="New Hampshire" Code="NH">
+    </State>
+    <State Name="New Jersey" Code="NJ">
+    </State>
+    <State Name="New Mexico" Code="NM">
+    </State>
+    <State Name="New York" Code="NY">
+    </State>
+    <State Name="North Carolina" Code="NC">
+    </State>
+    <State Name="North Dakota" Code="ND">
+    </State>
+    <State Name="Ohio" Code="OH">
+    </State>
+    <State Name="Oklahoma" Code="OK">
+    </State>
+    <State Name="Oregon" Code="OR">
+    </State>
+    <State Name="Pennsylvania" Code="PA">
+    </State>
+    <State Name="Rhode Island" Code="RI">
+    </State>
+    <State Name="South Carolina" Code="SC">
+    </State>
+    <State Name="South Dakota" Code="SD">
+    </State>
+    <State Name="Tennessee" Code="TN">
+    </State>
+    <State Name="Texas" Code="TX">
+    </State>
+    <State Name="Utah" Code="UT">
+    </State>
+    <State Name="Vermont" Code="VT">
+    </State>
+    <State Name="Virginia" Code="VA">
+    </State>
+    <State Name="Washington" Code="WA">
+    </State>
+    <State Name="West Virginia" Code="WV">
+    </State>
+    <State Name="Wisconsin" Code="WI">
+    </State>
+    <State Name="Wyoming" Code="WY">
+    </State>    
+  </StateList>
+</RegionList>

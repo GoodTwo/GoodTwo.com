@@ -1,0 +1,35 @@
+
+Log Entry : 
+12/14/2010 13:12:19
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/14/2010 13:12:41
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Procedure or function 'CharityEvent_Insert' expects parameter '@Logo', which was not supplied. (InnerException: )
+__________________________
+
+Log Entry : 
+12/14/2010 13:13:30
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Procedure or function 'CharityEvent_Insert' expects parameter '@Logo', which was not supplied. (InnerException: )
+__________________________
+
+Log Entry : 
+12/14/2010 13:13:49
+Error in: http://localhost:57906/goodtwo3.5/Funds/EULAConfirmation.aspx. Error Message:Procedure or function 'CharityEvent_Insert' expects parameter '@Logo', which was not supplied. (InnerException: )
+__________________________
+
+Log Entry : 
+12/14/2010 13:16:38
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/14/2010 13:26:32
+Error in: http://localhost:57906/goodtwo3.5/Funds/NewFund.aspx. Error Message:Thread was being aborted. (InnerException: )
+__________________________
+
+Log Entry : 
+12/14/2010 18:15:33
+Error in: http://localhost:57906/goodtwo3.5/Default.aspx. Error Message:Error in: http://localhost:57906/goodtwo3.5/Default.aspx. Error Message:c:\WebSites\goodtwo3.5\Default.aspx.cs(16): error CS0103: The name 'DropDownList2' does not exist in the current context (InnerException: )
+__________________________
