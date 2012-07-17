@@ -41,7 +41,7 @@
                     <tr>
                   <td><img class="icon" src="images/JimmyFund.gif" alt="(RED)" /></td>
                   <td><div class="promotedText"> <a class="name" href="http://goodtwo.com/funds/fund.aspx?id=5799">Jimmy Fund (Team Sunflower)<br />
-                  </a><a class="promoteShared" href="http://goodtwo.com/funds/handsonmiami.aspx">Boston, MA </a><span class="promoteDesc">$20 for 20 Gym Visits at <em>Benefitness Health Club</em></span></div></td>
+                  </a><a class="promoteShared" href="http://goodtwo.com/funds/fund.aspx?id=5799">Boston, MA </a><span class="promoteDesc">$20 for 20 Gym Visits at <em>Benefitness Health Club</em></span></div></td>
                 </tr>
                 </table>
             </li>
