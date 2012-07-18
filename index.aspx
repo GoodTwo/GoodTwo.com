@@ -10,14 +10,6 @@
     </div>
 </asp:Content>
 <asp:Content ID="MainContent" ContentPlaceHolderID="MainContentPlaceHolder" runat="Server">
-    <div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="col1">
       <ul>
         <li>
@@ -115,12 +107,4 @@
                 <a href="http://goodtwo.wordpress.com/">
                  <img id="smWordpress" src="Images/sm-wordpress.png" alt="Read our Wordpress Blog" /></a></p>
     </div>
-	<ul class="shareCont">
-        <li class="facebook"><a href="http://www.facebook.com" target="_new">Facebook</a></li>
-        <li class="twitter"><a href="http://www.twitter.com" target="_new">Twitter</a></li>
-        <li class="email"><a href="mailto:somebody@somewhere.com">Email</a></li>
-        <li class="likeButton">
-			<div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
-        </li>
-    </ul>
 </asp:Content>
