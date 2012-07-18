@@ -10,7 +10,15 @@
     </div>
 </asp:Content>
 <asp:Content ID="MainContent" ContentPlaceHolderID="MainContentPlaceHolder" runat="Server">
-    <div class="col1">
+    <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="col1">
       <ul>
         <li>
                 <img class="round calloutImg" src="Images/what-is-goodtwo.png" alt="What is goodtwo?"
@@ -40,8 +48,8 @@
                 <table width="448" height="50">
                     <tr>
                   <td><img class="icon" src="images/JimmyFund.gif" alt="(RED)" /></td>
-                  <td><div class="promotedText"> <a class="name" href="http://goodtwo.com/funds/fund.aspx?id=5799">Jimmy Fund (Team Sunflower)<br />
-                  </a><a class="promoteShared" href="http://goodtwo.com/funds/fund.aspx?id=5799">Boston, MA </a><span class="promoteDesc">$20 for 20 Gym Visits at <em>Benefitness Health Club</em></span></div></td>
+                  <td><div class="promotedText"> <a class="name" href="/funds/fund.aspx?id=5799">Jimmy Fund (Team Sunflower)<br />
+				  </a><a class="promoteShared" href="/funds/fund.aspx?id=5799">Boston, MA </a><span class="promoteDesc">$20 for 20 Gym Visits at <em>Benefitness Health Club</em></span></div></td>
                 </tr>
                 </table>
             </li>
@@ -55,8 +63,8 @@
                       </td>
                         <td>
                             <div class="promotedText">
-                              <a class="name" href="http://goodtwo.com/funds/fund.aspx?id=5916">The Lymphoma Research Ride<br />
-                              </a><a class="promoteShared" href="http://goodtwo.com/funds/fund.aspx?id=5916">Bethesda, MD</a><span class="promoteDesc">
+                              <a class="name" href="/funds/fund.aspx?id=5916">The Lymphoma Research Ride<br />
+                              </a><a class="promoteShared" href="/funds/fund.aspx?id=5916">Bethesda, MD</a><span class="promoteDesc">
                           $25 for $50 of Gifts at <em>Occasions to Remember</em></span></div>
                         </td>
                     </tr>
@@ -68,8 +76,8 @@
            <table>
              <tr>
                <td width="32"><img class="icon" src="images/EllieFund.gif" alt="(RED)" /></td>
-               <td width="412"><div class="promotedText"> <a class="name" href="http://www.goodtwo.com/funds/elliefund.aspx">The Ellie Fund<br />
-               </a><a class="promoteShared" href="http://goodtwo.com/funds/vancortlandt.aspx">Boston, MA</a><span class="promoteDesc"> $45 for $90 at <em>Toscana European Day Spa</em></em></span></div></td>
+               <td width="412"><div class="promotedText"> <a class="name" href="/funds/elliefund.aspx">The Ellie Fund<br />
+               </a><a class="promoteShared" href="/funds/vancortlandt.aspx">Boston, MA</a><span class="promoteDesc"> $45 for $90 at <em>Toscana European Day Spa</em></em></span></div></td>
              </tr>
            </table>
          </li>
@@ -107,4 +115,12 @@
                 <a href="http://goodtwo.wordpress.com/">
                  <img id="smWordpress" src="Images/sm-wordpress.png" alt="Read our Wordpress Blog" /></a></p>
     </div>
+	<ul class="shareCont">
+        <li class="facebook"><a href="http://www.facebook.com" target="_new">Facebook</a></li>
+        <li class="twitter"><a href="http://www.twitter.com" target="_new">Twitter</a></li>
+        <li class="email"><a href="mailto:somebody@somewhere.com">Email</a></li>
+        <li class="likeButton">
+			<div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
+        </li>
+    </ul>
 </asp:Content>

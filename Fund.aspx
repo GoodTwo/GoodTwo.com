@@ -36,6 +36,14 @@
     
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContentPlaceHolder" runat="Server">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <br />
 <br />
 <br />
@@ -93,9 +101,7 @@
                 <li class="twitter"><a href="http://www.twitter.com" target="_new">Twitter</a></li>
                 <li class="email"><a href="mailto:somebody@somewhere.com">Email</a></li>
                 <li class="likeButton">
-                    <iframe src="http://www.facebook.com/plugins/like.php?href=http://voices.goodtwo.com;layout=button_count&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=21"
-                        scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 200px;
-                        height: 31px;" allowtransparency="true"></iframe>
+                    <div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
                 </li>
             </ul>
         </div>
