@@ -255,12 +255,11 @@ public partial class Funds_Fund : System.Web.UI.Page
                     HtmlGenericControl pPrices = new HtmlGenericControl("p");
                     div.Controls.Add(pPrices);
                     pPrices.Attributes.Add("class", "prices");
-                    if (productDiscount >= 2) {
-						pPrices.InnerHtml = @"Price: $" + productPrice + @"<br />$" + productPledge + " will be donated to this cause.";
+                    pPrices.InnerHtml = @"Price: $" + productPrice;
+					if (productDiscount >= 2) {
+						pPrices.InnerHtml += @"<br />Discount: " + productDiscount;
 					}
-					else { 
-						pPrices.InnerHtml = @"Price: $" + productPrice + @"<br />Discount: " + productDiscount + @"%<br />You Save: $" + productYouSave;
-					}
+					pPrices.InnerHtml += @"<br />$" + productPledge + " will be donated to this cause.";
                     //Buy paragraph
                     if (!(product.ProductDescription_AbovePricing == null))//why do some of the products have null exception.
                     {

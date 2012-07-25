@@ -11326,3 +11326,33 @@ Log Entry :
 07/18/2012 16:34:20
 Error in: http://localhost:8080/funds/fund.aspx. Error Message:Error in: http://localhost:8080/funds/fund.aspx. Error Message:No handler for the current request. (InnerException: )
 __________________________
+
+Log Entry : 
+07/25/2012 17:44:39
+Error in: http://localhost:8080/favicon.ico. Error Message:Error in: http://localhost:8080/favicon.ico. Error Message:Path '/favicon.ico' was not found. (InnerException: )
+__________________________
+
+Log Entry : 
+07/25/2012 17:45:17
+Error in: http://localhost:8080/funds/fund.aspx?id=5799. Error Message:SQL Server does not exist or access denied. (InnerException: )
+__________________________
+
+Log Entry : 
+07/25/2012 17:45:20
+Error in: http://localhost:8080/favicon.ico. Error Message:Error in: http://localhost:8080/favicon.ico. Error Message:Path '/favicon.ico' was not found. (InnerException: )
+__________________________
+
+Log Entry : 
+07/25/2012 17:45:24
+Error in: http://localhost:8080/favicon.ico. Error Message:Error in: http://localhost:8080/favicon.ico. Error Message:Path '/favicon.ico' was not found. (InnerException: )
+__________________________
+
+Log Entry : 
+07/25/2012 17:45:41
+Error in: http://localhost:8080/funds/fund.aspx?id=5799. Error Message:SQL Server does not exist or access denied. (InnerException: )
+__________________________
+
+Log Entry : 
+07/25/2012 17:45:41
+Error in: http://localhost:8080/favicon.ico. Error Message:Error in: http://localhost:8080/favicon.ico. Error Message:Path '/favicon.ico' was not found. (InnerException: )
+__________________________
